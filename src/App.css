@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +31,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.head {
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #0e88ec;
+color: white;
+}
+.todo-item {
+
+  width:100%;
+  padding: 1.8em;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+
+.todo-list {
+  width: 60%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.bot{
+  display: flex;
+  flex-direction:row;
+ justify-content: space-around;
+
 }
